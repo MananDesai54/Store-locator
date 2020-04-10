@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/store-data.js"></script>
+    <script src="./js/index.js"></script>
+    <title>Epic Google Maps Project</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+</head>
+<body>
+    <h1 class="title">STORE LOCATOR</h1>
+    <div class="zipcode">
+        <input type="text" name="zipcode" id="zipcode" placeholder="Zip Code">
+        <i class="fa fa-search" onclick="searchStores()"></i>
+    </div>
+    <div class="store">
+        <div class="store-list">
+            <!-- <div class="store-detail">
+                <div class="detail">
+                    <p>5456 Address Road</p>
+                    <p>City State Zipcode</p>
+                    <p>945-965-8001</p>
+                </div>
+                <div class="circle">1</div>
+            </div>
+            
+            <div class="store-detail">
+                <div class="detail">
+                    <p>5456 Address Road</p>
+                    <p>City State Zipcode</p>
+                    <p>945-965-8001</p>
+                </div>
+                <div class="circle">2</div>
+            </div>
+            
+            <div class="store-detail">
+                <div class="detail">
+                    <p>5456 Address Road</p>
+                    <p>City State Zipcode</p>
+                    <p>945-965-8001</p>
+                </div>
+                <div class="circle">3</div>
+            </div> -->
+        </div>
+    </div>
+    <!-- <div class="infowindow">
+        <h1 class="store-title">Manan</h1>
+        <p class="open">5pm</p>
+        <p class="address"><i class="fas fa-location-arrow"></i><span>Surat</span></p>
+        <p class="contact"><i class="fas fa-phone-alt"></i>
+        <span>9426115401</span></p>
+    </div> -->
+    <div id="map"></div>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcwazb-T7zvceyA4VLWVB-eXvwj-XEUIA&callback=initMap">
+    </script>
+</body>
+</html>
